@@ -1,0 +1,10 @@
+{
+  "name": "vecinos",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}

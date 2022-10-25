@@ -1,0 +1,41 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu Content</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">This is the menu content.</ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Solicitudes</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    Envie su solicitud a la administración
+
+    <!-- Inputs with labels -->
+    <ion-list>
+      <ion-item>
+        <ion-select placeholder="Tipo de solicitud">
+          <ion-select-option value="apples">Queja</ion-select-option>
+          <ion-select-option value="oranges">Reservas</ion-select-option>
+          <ion-select-option value="bananas">Peticion</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <ion-item>
+      <ion-textarea  rows="10" placeholder="Ingrese detalles de la solicitud"></ion-textarea>
+    </ion-item>
+
+    <ion-button>Enviar</ion-button>
+
+    <p>* Tiempo de espera, 24 horas.</p>
+
+  </ion-content>
+</div>
